@@ -1,6 +1,10 @@
 # Edgar-AllanPoe
 Using SEC's EDGAR to download quarterly financial statements and compare to historical stock movement of S&P 500 companies
 
+## Code
+
+
+
 ## Resources Used
 The base code used to find the Ticker and CIK values of all S&P 500 companies mines the data from the Wikipedia page on the S&P 500.
 The base code can be found at: https://pythonprogramming.net/sp500-company-list-python-programming-for-finance/
@@ -12,5 +16,5 @@ The Stock Data being used was accumulated and uploaded by Cam Nugent on kaggle.c
 The Stock Data runs through 02/08/2013 to 02/07/2018 and can be found at: https://www.kaggle.com/camnugent/sandp500/data
 
 ## Caveats
-The Code can only be run for the following years: 2014, 2015, 2016, 2017.
-The Stock Data also did not include Adjusted Close prices, so any evalutions could be effected by any Stock Splits or Dividends
+The Stock Data did not include Adjusted Close prices, so any evalutions could be effected by any Stock Splits or Dividends.
+Different ContextRef ID formats are used between different companies and different years. Due to the time limitations on the project, I could not code it to dynamically find the CRef ID's, and instead I hard coded it to working with Microsoft's pre-2017 CRef ID Format.
