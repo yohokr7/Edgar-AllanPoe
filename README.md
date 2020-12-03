@@ -2,7 +2,7 @@
 Using SEC's EDGAR to download quarterly financial statements and compare to historical stock movement of S&P 500 companies
 
 ## Code
-* [Final Code used in Presentation] (./Code/Edgar_AllanCode-Allyrs.ipynb)
+* [Final Code used in Presentation](./Code/Edgar-AllanCode-Allyrs.ipynb)
 
 
 ## Resources Used
